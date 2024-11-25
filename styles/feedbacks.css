@@ -1,0 +1,226 @@
+.aboutus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+
+}
+
+@media (min-width: 1100px) {
+    .aboutus h2{
+
+        padding: 15px 40px;
+        margin-bottom: 30px;
+        color: #1A7C59;
+        background-color: #D9D9D9;
+      
+    }
+    .green{
+        display: flex;
+        flex-direction: column;
+        background-color: #1A7C59;
+        margin-top: 120 px ;
+        opacity: 0.75;
+    }
+    
+    
+    .feed1{
+        position: relative;
+        width: 300px;
+        height: 420px;
+        background-color: #D9D9D9;
+        border-radius: 25px;
+        
+        
+    }
+    
+    .feed2{
+        width: 300px;
+        height: 420px;
+        background-color: #D9D9D9;
+        border-radius: 25px;
+        
+        
+    
+    }
+    
+    .feed3{
+        width: 300px;
+        height: 420px;
+        background-color: #D9D9D9;
+        border-radius: 25px;
+        
+    }
+    
+    .arrow1{
+        height: 30px;
+        filter: invert(86%) sepia(1%) saturate(166%) hue-rotate(20deg) brightness(103%) contrast(90%);
+        
+        
+    }
+    
+    .arrow2{
+        height: 30px;
+        filter: invert(86%) sepia(1%) saturate(166%) hue-rotate(20deg) brightness(103%) contrast(90%);
+        transform: rotate(180deg);
+        
+    }
+    
+    .feed{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+        border-color: #1A7C59;
+        margin: 30px 4% 50px 4%;
+    }
+}
+@media (max-width: 1100px) and (min-width: 700px) {
+    .aboutus h2{
+
+        padding: 8px 20px;
+        margin-bottom: 15px;
+        color: #1A7C59;
+        background-color: #D9D9D9;
+      
+    }
+
+    .green{
+        display: flex;
+        flex-direction: column;
+        background-color: #1A7C59;
+        margin-top: 120 px ;
+        margin-bottom: 70 px;
+        opacity: 0.75;
+    }
+    
+    
+    .feed1{
+        position: relative;
+        width: 300px;
+        height: 420px;
+        background-color: #D9D9D9;
+        border-radius: 25px;
+        
+        
+    }
+    
+    .feed2{
+        position: relative;
+        width: 300px;
+        height: 420px;
+        background-color: #D9D9D9;
+        border-radius: 25px;
+        
+        
+    
+    }
+    
+    .feed3{
+        display: none;
+        
+    }
+    
+    .arrow1{
+        height: 30px;
+        filter: invert(86%) sepia(1%) saturate(166%) hue-rotate(20deg) brightness(103%) contrast(90%);
+        
+        
+    }
+    
+    .arrow2{
+        height: 30px;
+        filter: invert(86%) sepia(1%) saturate(166%) hue-rotate(20deg) brightness(103%) contrast(90%);
+        transform: rotate(180deg);
+        
+    }
+    
+    .feed{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+        border-color: #1A7C59;
+        margin: 30px 4% 50px 4%;
+    }
+}
+
+@media (max-width: 700px) {
+    .aboutus h2{
+
+        padding: 8px 20px;
+        margin-bottom: 15px;
+        color: #1A7C59;
+        background-color: #D9D9D9;
+      
+    }
+
+    .green{
+        display: flex;
+        flex-direction: column;
+        background-color: #1A7C59;
+        margin-top: 120 px ;
+        opacity: 0.75;
+    }
+    
+    
+    .feed1{
+        position: relative;
+        width: 300px;
+        height: 420px;
+        background-color: #D9D9D9;
+        border-radius: 25px;
+        
+        
+    }
+    
+    .feed2{
+        display: none;
+        
+        
+    
+    }
+    
+    .feed3{
+        display: none;
+        
+    }
+    
+    .arrow1{
+        height: 30px;
+        filter: invert(86%) sepia(1%) saturate(166%) hue-rotate(20deg) brightness(103%) contrast(90%);
+        
+        
+    }
+    
+    .arrow2{
+        height: 30px;
+        filter: invert(86%) sepia(1%) saturate(166%) hue-rotate(20deg) brightness(103%) contrast(90%);
+        transform: rotate(180deg);
+        
+    }
+    
+    .feed{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+        border-color: #1A7C59;
+        margin: 30px 4% 50px 4%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

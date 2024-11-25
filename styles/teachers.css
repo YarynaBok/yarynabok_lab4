@@ -1,0 +1,130 @@
+
+@media(min-width: 800px){
+  .about-us{
+    margin: 70px 4%;
+  }
+  .text-about{
+    font-size: 18px;
+    margin-bottom: 30px;
+    margin: 0px 60px 30px 60px;
+  }
+  .collective{
+    color: #1A7C59;
+    font-size: 20px;
+    padding-bottom: 30px;
+  }
+  .teachers{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px 60px;
+  }
+
+  .teacher{
+    margin: 20px 0px 5px 0px;
+    color: #1A7C59;
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .par{
+    width: 90%;
+    font-size: 15px;
+  }
+
+}
+
+
+@media(min-width: 500px) and (max-width: 800px) {
+  .about-us{
+    margin: 70px 4%;
+  }
+  .text-about{
+    font-size: 18px;
+    margin-bottom: 30px;
+    margin: 0px 60px 30px 60px;
+  }
+  .collective{
+    color: #1A7C59;
+    font-size: 20px;
+    padding-bottom: 30px;
+  }
+  .teachers{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px 0px;
+  }
+
+  .teacher{
+    margin: 20px 0px 5px 0px;
+    color: #1A7C59;
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .par{
+    width: 90%;
+    font-size: 12px;
+  }
+
+}
+
+
+@media(max-width: 500px) {
+  .about-us{
+    margin: 50px 2%;
+  }  
+  .text-about{
+    font-size: 12px;
+    margin: 0px 20px 30px 20px;
+  }
+  
+  .collective{
+    color: #1A7C59;
+    font-size: 12px;
+    padding-bottom: 30px;
+  }
+  .teachers{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0px 0%;
+  }
+
+  .teacher{
+    margin: 20px 0px 5px 0px;
+    color: #1A7C59;
+    font-size: 15px;
+    font-weight: 600;
+  }
+
+  .par{
+    width: 90%;
+    font-size: 12px;
+  }
+
+}
+
+
+
+
+
+
+
+
+.teacherbox{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.teachers img{
+  width: 90%;
+  border-radius: 20px;
+}
+
+
+

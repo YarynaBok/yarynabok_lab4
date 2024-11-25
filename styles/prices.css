@@ -1,0 +1,114 @@
+.prices_and_offers{
+  margin: 0px 8%;
+}
+
+.table-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.upper-table,
+.lower-table{
+  border-collapse: collapse;
+}
+
+.upper-table td, 
+.lower-table td{
+  text-align: center;
+  padding: 15px 0px;
+  border: 2px solid #1A7C59;
+  color: #1A7C59;
+  font-size: 20px;
+}
+
+.table-content:hover{
+  background-color: #1A7C59;
+  color: white;
+  cursor: pointer;
+}
+
+.set:hover,
+.set-price:hover set{
+  background-color: #27b080;
+  cursor: pointer;
+}
+
+.set:hover p,
+.set-price:hover set p{
+  color: white;
+}
+
+.set:hover .set-price,
+.set-price:hover{
+  background-color: #1A7C59;
+  cursor: pointer;
+}
+
+.set:hover .set-price,
+.set-price:hover{
+  color: white;
+}
+
+.bold{
+  font-weight: 600;
+}
+
+@media(max-width: 800px){
+  
+  .upper-table td, 
+  .lower-table td{
+    
+    padding: 8px 0px;
+    font-size: 12px;
+  }
+  
+  .upper-table td{
+    width: 300px;
+  }
+  
+  .lower-table td{
+    width: 550px;
+  }
+  
+  .explanations{
+    margin: 30px 0px;
+    font-size: 12px;
+    font-weight: 600;
+  }
+  
+  .lower-table{
+    margin-bottom: 75px;
+  }
+}
+
+@media(min-width: 800px){
+  
+  
+  .upper-table td, 
+  .lower-table td{
+    
+    padding: 15px 0px;
+    
+    font-size: 20px;
+  }
+  
+  .upper-table td{
+    width: 300px;
+  }
+  
+  .lower-table td{
+    width: 550px;
+  }
+  
+  .explanations{
+    margin: 30px 0px;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+  .lower-table{
+    margin-bottom: 75px;
+  }
+}

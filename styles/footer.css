@@ -1,0 +1,126 @@
+@media (max-width: 600px) {
+    .footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #1A7C59;
+        opacity: 0.75;
+        padding-bottom: 40px;
+    }
+    
+    .fottxt{
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    
+    }
+
+    .txt{
+        color: #D9D9D9;
+        margin-top: 5px;
+        font-size: 12px;
+    }
+    
+    .contact{
+        color: #D9D9D9;
+        font-size: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .conic{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 30px 20px 10px 20px;
+    }
+    
+    .iconcon{
+        display: flex;
+        flex-direction: row;
+    
+    }
+    
+    .ddd{
+        filter: invert(93%) sepia(0%) saturate(1564%) hue-rotate(335deg) brightness(85%) contrast(120%);
+        width: 25px;
+    }
+    
+    .num{
+        color: #D9D9D9;
+        font-size: 10px;
+    }
+    
+    .telephone{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .logoo{
+        display: none;
+    }
+}
+
+@media (min-width: 600px) {
+    .footer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #1A7C59;
+        opacity: 0.75;
+    }
+    
+    .fottxt{
+        
+        display: flex;
+        flex-direction: column;
+        
+        margin: 0px 120px 50px 20px;
+    
+    }
+    
+    .txt{
+        color: #D9D9D9;
+        margin: 10px 4% 0px 4%;
+        font-size: 20px;
+    }
+    
+    .contact{
+        color: #D9D9D9;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    
+    .conic{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0px 0px 50px 120px;
+    }
+    
+    .iconcon{
+        display: flex;
+        flex-direction: row;
+    
+    }
+    
+    .ddd{
+        filter: invert(93%) sepia(0%) saturate(1564%) hue-rotate(335deg) brightness(85%) contrast(120%);
+        width: 35px;
+    }
+    
+    .num{
+        color: #D9D9D9;
+        font-size: 20px;
+    }
+    
+    .telephone{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .logoo{
+        width: 80px;
+    }
+}

@@ -1,0 +1,165 @@
+
+
+.logo{
+  width: 18%;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.menu{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1;
+  white-space: nowrap;
+}
+
+.menu a{
+  margin: 0px 5px;
+  text-decoration: none;
+  color: #D9D9D9;
+}
+
+
+
+@media (max-width: 800px){
+
+  header{
+    height: 50px;
+    width: 100%;
+    background-color: #1A7C59;
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    z-index: 100;
+    align-items: center;
+  }
+
+  .hamburger-menu-box{
+    margin-left: auto;
+    margin-right: 25px;
+    position: relative;
+    height: 100%;
+  }
+  
+  .hamburger-menu{
+    margin-top: 5px;
+    cursor: pointer;
+    width: 40px;
+  }
+
+  .menu{
+    display: none;
+  }
+
+  .logoicon{
+    width: 40px;
+  }
+
+  .icons{
+    width: 18%;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .icons-box{
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+  }
+  
+  .icon{
+    width: 25px;
+    border-radius: 5px;
+    filter: invert(93%) sepia(0%) saturate(1564%) hue-rotate(335deg) brightness(85%) contrast(120%);
+  }
+}
+
+@media (min-width: 800px){
+
+  .hamburger-menu-box{
+    margin-left: auto;
+    margin-right: 40px;
+    position: relative;
+    height: 100%;
+  }
+  
+  .hamburger-menu{
+    margin-top: 15px;
+    cursor: pointer;
+  }
+
+  header{
+    height: 80px;
+    width: 100%;
+    background-color: #1A7C59;
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    z-index: 100;
+    align-items: center;
+  }
+
+  .hamburger-menu-box{
+    display: none;
+  }
+
+  .logoicon{
+    width: 60px;
+  }
+  
+  .icons{
+    width: 18%;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .icons-box{
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+  }
+  
+  .icon{
+    width: 35px;
+    border-radius: 5px;
+    filter: invert(93%) sepia(0%) saturate(1564%) hue-rotate(335deg) brightness(85%) contrast(120%);
+  }
+}
+.burgerfall {
+  display: flex;
+  flex-direction: column;
+  visibility: hidden;
+  position: absolute;
+  top: 50px;
+  right: -31px;
+  color: #D9D9D9;
+  background-color: #1A7C59;
+  padding: 10px;
+  border-radius: 5px;
+  z-index: 1000;
+  border-top: 1px solid white;
+}
+
+.hamburger-menu-box:hover .burgerfall {
+  visibility: visible;
+}
+
+.lll {
+  margin-top: 5px;
+  color: #D9D9D9;
+  padding: 5px;
+  text-decoration: none;
+  background-color: #1A7C59;
+  font-size: 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
